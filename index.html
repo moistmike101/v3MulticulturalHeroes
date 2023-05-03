@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/custom_bootstrap.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        section {
+            padding: 60px 0;
+        }
+
+
+
+        .btn-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 100px;
+            text-transform: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md  navbar-light pt-5 pb-3 ">
+        <div class="container-xxl">
+            <!-- navbar brand / title -->
+            <a class="navbar-brand" href="#intro">
+                <span class=" fw-bold">
+                    <i class="bi bi-book-half">
+                        <h3 class="fst-normal">Multicultural Heroes</h3>
+                    </i>
+                </span>
+            </a>
+
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+                <ul class="navbar-nav text-dark">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#topics">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Heroes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Latino American</a></li>
+                            <li><a class="dropdown-item" href="#">African American</a></li>
+                            <li><a class="dropdown-item" href="#">Asian American</a></li>
+                            <li><a class="dropdown-item" href="#">Native American</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#">General &<br> Biographies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Books</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- main image & intro text -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row g-4 pt-5 pb-5 justify-content-center align-items-center bg-warning rounded">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2 ">Multicultural Heroes</div>
+
+                    </h1>
+                    <p class="lead my-4">Come Learn about Multicultural Heroes. Please email <span
+                            class="fw-bold">mnwalbridge@gmail.com</span>
+                        more information
+
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-dark px-4 mx-1">Books</a>
+                        <a href="#" class="btn btn-dark px-4 mx-1">About</a>
+
+                    </p>
+
+
+                </div>
+                <div class="col-md-5 text-center px-2">
+                    <!-- tooltip -->
+                    <span class="tt" data-bs-placement="top" title="Diversity">
+                        <img src="https://i.ibb.co/SQQTCFt/hannah-busing-Zyx1b-K9mqm-A-unsplash.jpg"
+                            class="img-fluid rounded d-none  d-md-block" alt="ebook">
+                    </span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Secondary image & intro text -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row g-4 justify-content-center align-items-center ">
+                <div class="col-md-5 text-center text-md-start">
+                    <h2>
+                        <div class="display-3 text-center">Mission.</div>
+
+                    </h2>
+                    <p class="lead my-4 text-justify">This website, launched originally in 2002, gives students and
+                        teachers quick
+                        access to hundreds of brief Biographies with an emphasis on culturally relevant <span
+                            class="fw-bold"> Latino,
+                            Hispanic, African, Asian, and Native American Heroes</span> in the field of history,
+                        literature, math
+                        or science.
+
+                    </p>
+                    <span class="tt" data-bs-placement="top" title="Diversity">
+                        <img src="https://i.ibb.co/r3Fxqss/chuttersnap-Qk-Pb5g9p338-unsplash.jpg"
+                            class="img-fluid rounded" alt="ebook">
+                    </span>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Topics -->
+    <section class="container-lg ">
+        <div id="book" class="row justify-content-center text-center font-light pb-4">
+            <div class="col-ls-6 pb-2">
+                <h1 class="display-3">Topics:</h1>
+            </div>
+            <div class="col-mn-6 my-1 pb-1">
+                <button type="button" class="btn btn-warning btn-circle"><a href="#" class="text-dark">
+                        Latino<br>American</a></button>
+                <button type="button" class="btn btn-warning btn-circle "><a href="#"
+                        class="text-dark">African<br>American</a></button>
+            </div>
+            <div class="col-mn-6 my-1 pb-1">
+                <button type="button" class="btn btn-warning btn-circle"><a href="#"
+                        class="text-dark">Asian<br>American</a></button>
+                <button type="button" class="btn btn-warning btn-circle"><a href="#"
+                        class="text-dark">Native<br>American</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers -->
+    <section>
+        <div class="container-lg">
+            <div class="text-center text-center py-3 bg-dark text-light rounded ">
+                <p><span class="text-warning">Teachers:</span> The website listed can be used independently or in
+                    conjuncture with the biographical
+                    research activities described in the teacher's guide of the following Multicultural Heroes od
+                    the
+                    Civil
+                    War set by Mike Walbridge
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row g-4 pb-2 justify-content-center align-items-center ">
+                <div class="col-md-5 text-center text-md-start">
+                    <div class="text-center">
+                        <h1 class="display-3">Books:</h1>
+                        <p class="subtitle">Click Books Below</p>
+                    </div>
+                    <div class="row  justify-content-center p-4">
+                        <div class="col-6 col-sm-4">
+                            <a href="#">
+                                <img src="https://i.ibb.co/wy1DrrL/latinoheroesbook.gif" alt="latino heroes book">
+                            </a>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <a href="#">
+                                <img src="https://i.ibb.co/gFLz0B3/africanamericanbook.gif" alt="african heroes book">
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-center">Available through Social Students School Service</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-dark">
+        <div class="container-lg">
+            <!--Grid row-->
+
+            <!--Grid column-->
+            <div class="col text-center text-light">
+                <p><span class="text-warning">Copyright © 2023</span> Questions or commments? Contact:</p>
+                <p> Mike Walbridge at mnwalbridge@gmail.com</p>
+                <p>(000) 000-000</p>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    </div>
+    <!-- Copyright -->
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltips = document.querySelectorAll('.tt')
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t)
+        })
+    </script>
+</body>
+
+</html>
+
+<!-- Hosted Images
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/2PvvpF8/FERMATA-INVERTED.png" alt="FERMATA-INVERTED" border="0"></a>
+<a href="https://ibb.co/xqpkJHy"><img src="https://i.ibb.co/zVyMGJ1/fermata-text-transparent.png" alt="fermata-text-transparent" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/19md6z7/Salesforce-Partner-Badge-RGB.png" alt="Salesforce-Partner-Badge-RGB" border="0"></a>
+<a href="https://ibb.co/YLdYvbG"><img src="https://i.ibb.co/G5MBgFj/unsplash-image-w00-Fk-E6e8z-E.jpg" alt="unsplash-image-w00-Fk-E6e8z-E" border="0"></a>
+<a href="https://ibb.co/6vvhCjH"><img src="https://i.ibb.co/SQQTCFt/hannah-busing-Zyx1b-K9mqm-A-unsplash.jpg" alt="hannah-busing-Zyx1b-K9mqm-A-unsplash" border="0"></a>
+<a href="https://ibb.co/7QjnB44"><img src="https://i.ibb.co/r3Fxqss/chuttersnap-Qk-Pb5g9p338-unsplash.jpg" alt="chuttersnap-Qk-Pb5g9p338-unsplash" border="0"></a>
+-->
